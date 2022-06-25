@@ -13,7 +13,7 @@
 </script> 
 
 <script>
-    import PopularMovies from "/Users/ayaanshahab/Dev/moviedb/src/components/PopularMovies.svelte";
+    import PopularMovies from "../components/PopularMovies.svelte";
     import SearchMovies from "../components/SearchMovies.svelte";
     export let popular;
     import {fly} from 'svelte/transition';
